@@ -5,6 +5,8 @@ navigation_weight: 1
 ---
 # Issue: Lesson Template
 
+The Legal Environment of Business ...
+
 ## State the issue of the problem in the form of a question
 
 ## Solution

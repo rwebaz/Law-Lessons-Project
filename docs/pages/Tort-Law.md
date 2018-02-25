@@ -1,16 +1,16 @@
 ---
 title: Tort Law
 layout: default
-navigation_weight: 9
+excerpt: A tort is a civil wrong arising from the Anglo-American common law without any reference to contract ...
+version: Page Template md Dtd 02-16-18
+navigation_weight: 8
+categories: template
 ---
-# Tort Law
+# {{ page.title }}
 
-Tort is a civil wrong arising from the Anglo-American common law without any reference to contract.
+{{ page.excerpt }}
 
-## Table O Contents
-
-- TOC
-{:toc}
+{% include toc.md %}
 
 ## Standard of Proof
 
@@ -60,6 +60,28 @@ A sort of pervasive, social-regulatory mechanism ... Do NOT be afraid to settle 
 
 **Conclusion**. Given the now diminished value of the dollars expected, to outlay legal expense today in order to extract those same dollars tomorrow does not square.
 
-***
+## Import Code
 
-**Source**: [Torts: Cases, Principles, and Institutions by John Fabian Witt](https://www.cali.org/books/torts-cases-principles-and-institutions){:target="_blank"}
+More to come ...
+
+## Last Subtitle
+
+**Note**. The above synopsis was derived from an article written by John Fabian Witt [[2](#WITT){:.red}].
+
+### Raw Code Block
+
+```liquid
+{% raw %}
+Enjoy the successful output!
+{% endraw %}
+```
+
+{% include sources-and-uses.md %}
+
+1. {:#WITT}[Torts: Cases, Principles, and Institutions](https://www.cali.org/books/torts-cases-principles-and-institutions){:title='Click to Visit the Landing page for Torts: Cases, Principles, and Institutions'}{:target='_blank'} by John Fabian Witt.
+
+### External Sources
+
+- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Law/Source-Law-Links.htm){:title='Click to Visit the Source Links page of the Law Lessons Project at Concepts Library'}{:target='_blank'} page of the Law Lessons Project at Concepts Library. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concepts Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
+
+**Note**. This page crafted with {{ page.version }}.

@@ -1,3 +1,3 @@
 # Law Lessons Project
 
-A GitHub repo of Law lessons that emphasize both the GFM and Kramdown engines
+A GitHub repo of Lessons and Articles that emphasize the Common Law method of administering justice.
