@@ -1,26 +1,81 @@
 ---
 title: Home Page
 layout: default
+excerpt: Law tags and Law statements mimic underlying Javascript methods ...
+version: Index Template md Dtd 02-16-18
 navigation_weight: 1
+categories: template
 ---
-# Issue: Lesson Template
+{% comment %}{% raw %}{% include page-banner-blank.md %}{% endraw %}{% endcomment %}
 
-The Legal Environment of Business ...
+# Law Lessons Project Home Page
 
-## State the issue of the problem in the form of a question
+{{ page.excerpt }}
 
-## Solution
+{% include toc.md %}
 
-Expound the solution ...
+## Issue
 
-## The Code
+The **Issue** of a successful legal argument is prefaced by a concise, to the point coin flip.
 
-Highlight the code ...
+Should it be, or should it not be?
 
-## Summation
+### The Socratic Method
+
+State the issue of the problem in the form of a question ie.) How do you code this stuff?
+
+## Rule
+
+The rule may be split into two components ...
+
+### Current Majority View
+
+What is the current view as expressed by the majority of federal districts and state courts based on the common law with reference to the UCC, 2nd Restatements, etc. et al?
+
+### The Minority View
+
+What is the minority view as expressed by the dissent?
+
+{% include analysis-code-live.md %}
+
+## Conclusion
+
+A concise conclusion wraps the argument ...
+
+### Summation
 
 Delineate the steps ...
 
-## Live
+### Solution
 
-Render the code live
+Expound the solution ...
+
+### Description
+
+{{ site.description }}
+
+{% include raw-code-anchors.md %}
+
+## Import Code
+
+More to come ...
+
+## Last Subtitle
+
+**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+
+### Raw Code Block
+
+```liquid
+{% raw %}
+Enjoy the successful output!
+{% endraw %}
+```
+
+{% include sources-and-uses.md %}
+
+### External Sources
+
+- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Law/Source-Law-Links.htm){:title="Click to Visit the Source Links page of the Law Lessons Project at GitHub pages"}{:target="_blank"} page of the Law Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+
+**Note**. This page crafted with {{ page.version }}.
