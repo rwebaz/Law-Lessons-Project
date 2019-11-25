@@ -2,21 +2,23 @@
 title: Tort Law
 layout: default
 excerpt: A tort is a civil wrong arising from the Anglo-American common law without any reference to contract ...
-version: Page Template md Dtd 02-16-18
+hint: Tort cases are heard in the Court of Civil Wrongs and may include a jury and a judge, or no jury and simply the judge.
+repo: Law-Lessons-Project
+ver_date: 11-20-19
 navigation_weight: 8
-categories: template
+categories: page
 ---
-# {{ page.title }}
-
-{{ page.excerpt }}
-
 {% include toc.md %}
+
+## First Subtitle
+
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 ## Standard of Proof
 
 A simple **Preponderance of The Evidence** will suffice in a Tort trial, as opposed to the standard **Beyond Any Reasonable Doubt** that commonly prevails in a criminal trial.
-
-Tort cases are heard in the Court of Civil Wrongs and may include a jury and a judge, or no jury and simply the judge.
 
 **Note**. Tort law offers the civil remedies of restitution and compensation, NOT the criminal remedy of punishment.
 
@@ -60,28 +62,16 @@ A sort of pervasive, social-regulatory mechanism ... Do NOT be afraid to settle 
 
 **Conclusion**. Given the now diminished value of the dollars expected, to outlay legal expense today in order to extract those same dollars tomorrow does not square.
 
-## Import Code
+## Last Subtitle
 
 More to come ...
 
-## Last Subtitle
+***
 
 **Note**. The above synopsis was derived from an article written by John Fabian Witt [[2](#WITT){:.red}].
 
-### Raw Code Block
-
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
-
-{% include sources-and-uses.md %}
-
 1. {:#WITT}[Torts: Cases, Principles, and Institutions](https://www.cali.org/books/torts-cases-principles-and-institutions){:title='Click to Visit the Landing page for Torts: Cases, Principles, and Institutions'}{:target='_blank'} by John Fabian Witt.
 
-### External Sources
+***
 
-- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Law/Source-Law-Links.htm){:title='Click to Visit the Source Links page of the Law Lessons Project at Concepts Library'}{:target='_blank'} page of the Law Lessons Project at Concepts Library. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concepts Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
-
-**Note**. This page crafted with {{ page.version }}.
+{% include patreon-link.md %}
